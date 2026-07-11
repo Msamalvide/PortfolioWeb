@@ -1,7 +1,7 @@
 import { GitBranch, ExternalLink } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../../components/ui/button"
 import { motion } from "framer-motion"
-import type { Project } from "@/data/projects"
+import type { Project } from "../../data/projects"
 
 const techColors: Record<string, string> = {
     "React": "bg-blue-500/20 text-blue-400 border-blue-500/30",
